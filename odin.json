@@ -1,0 +1,54 @@
+{
+  "id": "northem-gedit-syntax-syntax",
+  "name": "Northem - Gedit Syntax",
+  "version": "",
+  "date": {
+   "created": "2015-03-15 20:17 UTC+0100",
+   "updated": ""
+  },
+  "access": "public",
+  "modularity": "subproject",
+  "description": "A north-bluish dark theme based on the same named color palette \"Northem\".",
+  "website": "http://arcticicestudio.com/northem",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "website": "http://arcticicestudio.com",
+    "GitHub": "https://github.com/arcticicestudio",
+    "Twitter": "https://twitter.com/arcticicestudio",
+    "Reddit": "https://reddit.com/user/arcticicestudio"
+  },
+  "repository": {
+    "localpath": "~/yggdrasil/Northem/northem-gedit-syntax",
+    "url": "https://github.com/arcticicestudio/northem-gedit-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/northem-gedit-syntax/issues",
+    "email": "bugs@arcticicestudio.com"
+  },
+  "engines": [
+    {"id": "gedit","version": "3.20.1","manager": "pacman"}
+  ],
+  "devEngines": [
+    {"id": "git","version": "2.8.*","manager": "pacman"},
+    {"id": "odin","version": "0.1.0","manager": "odin"}
+  ],
+  "specifications": [
+    {"id": "arcver","version": "0.8.0","manager": "odin"}
+  ],
+  "dependencies": [
+    {"id": "northem","version": "1.0.1","manager": "odin"}
+  ],
+  "devDependencies": [
+    {"id": "glacier-git","version": "0.22.0","manager": "odin"}
+  ],
+  "contributors": [
+    {"name": "Arctic Ice Studio","email": "development@arcticicestudio.com"}
+  ],
+  "copyright": "Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>",
+  "license": [
+    {"name": "GPL-3.0","file": "LICENSE.md"},
+    {"name": "CC-BY-SA-4.0","file": "LICENSE.md"}
+  ],
+  "tags": ["northem","gedit","syntax","ui","bluish","dark"]
+}
