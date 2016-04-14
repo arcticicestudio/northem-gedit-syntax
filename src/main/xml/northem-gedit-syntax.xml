@@ -37,6 +37,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (4.5) JSON
     (4.6) Markdown
     (4.7) Perl
+    (4.8) PHP
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -359,5 +360,11 @@ Glacier - Git
   <style name="perl:include-statement" use-style="def:statement" />
   <style name="perl:special-variable" use-style="def:constant" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.7]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - PHP                                                      [4.8] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="php:string" use-style="def:string" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.8]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
