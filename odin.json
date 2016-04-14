@@ -1,10 +1,10 @@
 {
   "id": "northem-gedit-syntax-syntax",
   "name": "Northem - Gedit Syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "date": {
    "created": "2015-03-15 20:17 UTC+0100",
-   "updated": "2016-04-14 11:21 UTC+0200"
+   "updated": "2016-04-14 11:41 UTC+0200"
   },
   "access": "public",
   "modularity": "subproject",
