@@ -39,6 +39,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (4.7) Perl
     (4.8) PHP
     (4.9) Python
+    (4.10) Ruby
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -376,5 +377,16 @@ Glacier - Git
   <style name="python:module-handler" use-style="def:keyword" />
   <style name="python:special-variable" use-style="def:constant" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.9]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Ruby                                                    [4.10] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="ruby:attribute-definition" use-style="def:variable" />
+  <style name="ruby:global-variable" use-style="def:variable" />
+  <style name="ruby:module-handler" use-style="def:keyword" />
+  <style name="ruby:predefined-variable" use-style="def:constant" />
+  <style name="ruby:regex" use-style="def:regexp" />
+  <style name="ruby:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.10]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
