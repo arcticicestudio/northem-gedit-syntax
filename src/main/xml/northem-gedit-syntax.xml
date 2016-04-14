@@ -22,6 +22,8 @@ A north-bluish dark theme based on the same named color palette "Northem".
   (2) Settings
   (3) Definitions
     (3.0) Customs
+    (3.1) Defaults
+      (3.1.0) Variables
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -186,5 +188,22 @@ Glacier - Git
   <style name="def:verbatim" foreground="yellow" />
   <style name="def:escape" foreground="yellow" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults                                               [3.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Variables                                 [3.1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:string" foreground="dirty-white" />
+  <style name="def:character" foreground="dirty-white" />
+  <style name="def:special-char" foreground="yellow" />
+  <style name="def:number" foreground="purple" />
+  <style name="def:decimal" use-style="def:number" />
+  <style name="def:base-n-integer" use-style="def:number" />
+  <style name="def:floating-point" use-style="def:number" />
+  <style name="def:complex" use-style="def:number" />
+  <style name="def:variable" foreground="white" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.0]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
 </style-scheme>
