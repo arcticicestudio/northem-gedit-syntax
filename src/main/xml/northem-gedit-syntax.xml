@@ -33,6 +33,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (4.1) diff
     (4.2) HTML
     (4.3) Java
+    (4.4) JavaScript
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -311,5 +312,11 @@ Glacier - Git
   <style name="java:type" use-style="def:keyword" />
   <style name="java:method" use-style="def:function" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - JavaScript                                               [4.4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="js:function" use-style="def:function" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.4]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
