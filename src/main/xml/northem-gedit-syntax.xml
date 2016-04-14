@@ -25,6 +25,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (3.1) Defaults
       (3.1.0) Variables
       (3.1.1) Constants
+      (3.1.2) Comments
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -215,5 +216,15 @@ Glacier - Git
   <style name="def:special-constant" foreground="dark-blue" />
   <style name="def:boolean" foreground="aqua" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Comments                                  [3.1.2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:comment" foreground="light-gray" />
+  <style name="def:note" use-style="def:comment" />
+  <style name="def:doc-comment" use-style="def:comment" />
+  <style name="def:doc-comment-element" foreground="dark-blue" />
+  <style name="def:net-address-in-comment" foreground="light-gray" italic="true" underline="true" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.2]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
 </style-scheme>
