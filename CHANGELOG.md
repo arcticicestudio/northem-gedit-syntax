@@ -1,6 +1,16 @@
 Northem - Gedit Syntax
 ======================
 
+## 0.1.1 (2016-04-14)
+### Bug Fixes
+#### Dependency Compatibility
+  - Fixed the background color being overriden by the default GTK theme background color caused by an change in the `gtksourceview3@3.20.1` package
+
+### Improvements
+#### Documentation
+  - Added the `gtksourceview3@3.20.1` package as dependency
+
+
 ## 0.1.0 (2016-04-14)
 ### Features
 #### Language Support
