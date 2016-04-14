@@ -16,6 +16,10 @@ modified  2016-04-14 10:42 UTC+0200       +
 [Description]
 A north-bluish dark theme based on the same named color palette "Northem".
 
+[Index]
+  (1) Color Palette
+    (1.0) Northem 1.0.1
+
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
   - "Northem Light - Gedit Syntax" (https://github.com/arcticicestudio/northem-light-gedit-syntax)
@@ -123,4 +127,30 @@ Glacier - Git
 <style-scheme id="northem-gedit-syntax" name="Northem" filename="northem-gedit-syntax.xml" version="1.0">
   <author>Arctic Ice Studio</author>
   <description>A north-bluish dark theme based on the same named color palette "Northem"</description>
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette                                                          [1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette - Northem 1.0.1                                        [1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <color name="darkest-gray"   value="#2D2D2E" />
+  <color name="dark-gray"      value="#333334" />
+  <color name="gray"           value="#383839" />
+  <color name="light-gray"     value="#606062" />
+  <color name="dirty-white"    value="#DEDEDE" />
+  <color name="white"          value="#ECEEEF" />
+
+  <color name="aqua"           value="#90CDC7" />
+  <color name="light-blue"     value="#88B2CD" />
+  <color name="blue"           value="#86C1D2" />
+  <color name="dark-blue"      value="#5C81AE" />
+
+  <color name="red"            value="#DF7574" />
+  <color name="yellow"         value="#FCCE85" />
+  <color name="orange"         value="#EFA070" />
+  <color name="lime"           value="#C8CB79" />
+  <color name="purple"         value="#C2A2C9" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+ -->
 </style-scheme>
