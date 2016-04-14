@@ -30,6 +30,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
       (3.1.4) Logicals
   (4) Languages
     (4.0) CSS
+    (4.1) diff
 
 [Variations]
   - "Northem Dark - Gedit Syntax"  (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -271,5 +272,16 @@ Glacier - Git
   <style name="css:block" use-style="def:symbol" />
   <style name="css:string" use-style="def:string" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - diff                                                     [4.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="diff:added-line" foreground="lime" />
+  <style name="diff:removed-line" foreground="red" />
+  <style name="diff:changed-line" foreground="yellow" />
+  <style name="diff:special-case" use-style="def:string" />
+  <style name="diff:location" use-style="def:keyword" />
+  <style name="diff:diff-file" foreground="dark-blue" bold="true" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.1]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
